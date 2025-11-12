@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW-12</title>
+    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-BkVuWn-o.js">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-CBq8UDsZ.css">
+  </head>
+  <body>
+    <main class="container">
+      <form id="search-form" class="search-form">
+        <input
+          id="search-input"
+          name="query"
+          type="text"
+          placeholder="Search images"
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+      <span id="loader" class="loader is-hidden"></span>
+
+      <section class="gallery-wrap">
+        <ul id="gallery" class="gallery"></ul>
+        <button id="load-more" class="load-more is-hidden">Load More</button>
+      </section>
+    </main>
+  </body>
+</html>
